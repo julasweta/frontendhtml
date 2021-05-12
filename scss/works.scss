@@ -1,0 +1,102 @@
+@import "mixin.scss";
+
+.works {
+    display: block;
+    @include title();
+    .works__arrows {
+        @include arrows();
+        padding-top: 90%;
+    }
+
+    .slick-dots button,
+    li {
+        display: none;
+    }
+
+    .works__box {
+        display: block;
+        text-align: center;
+
+        .shorts {
+            width: 40%;
+            display: inline;
+
+
+            .shorts__text1 {
+                font-size: $f20;
+                opacity: 0.9;
+                line-height: $f30;
+                border-top: 4px solid;
+                justify-content: space-between;
+                align-items: center;
+                text-align: center;
+
+            }
+
+            .slick-current .shorts__text1 {
+                border-top: 4px solid rgb(7, 239, 247);
+                animation: fadeOut;
+                animation-duration: 1s;
+
+
+            }
+        }
+
+        .your-class-arrow {
+            margin-left: auto;
+            margin-right: auto;
+
+
+            .slider-right-arrow {
+                padding: 1%;
+            }
+
+            .slider-left-arrow {
+                padding: 1%;
+            }
+        }
+
+        .works__items {
+            margin-top: 3%;
+            width: 90%;
+            margin-left: auto;
+            margin-right: auto;
+
+            .works__item {
+
+                .works__item-monitor-site {
+                    padding-top: 3%;
+                    display: flex;
+                    flex-direction: column;
+                    background-color: #f0f3f7;
+                    justify-content: center;
+                    box-shadow: 0px 0px 14px 0px #000000;
+
+
+
+                    img {
+                        background: white;
+                        border: 1px solid rgba(255, 255, 255, 0.3);
+                        box-sizing: border-box;
+                        width: 90%;
+                        height: 14rem;
+                        display: flex;
+                    }
+
+                    .text {
+                        width: 90%;
+                        padding-top: 3%;
+                        color: rgb(71, 122, 124);
+                        align-self:stretch;
+                        background-color: rgb(241, 240, 240);
+                        text-align: center;
+                    }
+                }
+
+
+
+            }
+        }
+
+    }
+}

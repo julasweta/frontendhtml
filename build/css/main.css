@@ -1,0 +1,693 @@
+* {
+    box-sizing: border-box;
+
+}
+
+button {
+    border: none;
+    margin: 0;
+    padding: 0;
+    background: transparent;
+    cursor: pointer;
+}
+
+body {
+    background: #F4F4F4;
+    font-family: Roboto;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 60px 15px;
+}
+
+@media screen and (min-width: 770px) and (max-width: 1150px) {
+    .container {
+        max-width: 800px;
+    }
+}
+
+@media screen and (min-width: 390px) and (max-width: 770px) {
+    .container {
+        max-width: 600px;
+        position: relative;
+    }
+}
+
+@media screen and (max-width: 389px) {
+    .container {
+        max-width: 320px;
+    }
+}
+
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+
+}
+
+
+.main {
+    width: 74%;
+    /* width: 865px; */
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+@media screen and (min-width: 390px) and (max-width: 769px) {
+    .main {
+        width: 100%;
+    }
+}
+
+.main+.sidebar {
+    margin-left: 30px;
+}
+
+
+/* CARD */
+.card__link {
+    text-decoration: none;
+    display: block;
+    color: #000000;
+    transition: opasity 0.2s ease-in;
+    margin-bottom: 30px;
+}
+
+@media screen and (min-width: 390px) and (max-width: 600px) {
+    .card__link {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.card__link:hover {
+    opacity: 0.8;
+    transform: translateY(1px);
+}
+
+.card {
+    width: 270px;
+    height: 334px;
+    background: #FFFFFF;
+    border-radius: 4px;
+    margin-right: -2px;
+    box-shadow: 0px 0px 4px 0px #000000;
+}
+
+@media screen and (min-width: 390px) and (max-width:600px) {
+    .card {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+}
+
+.card__img {
+    position: relative;
+    display: block;
+}
+
+
+@media screen and (max-width: 769px) {
+    .card__img img {
+        width: 100%;
+    }
+}
+
+.card__img::before {
+    content: 'комфорт';
+    position: absolute;
+    height: 22px;
+    left: 15px;
+    top: 12px;
+    text-transform: capitalize;
+    background: #FFCF26;
+    border-radius: 4px;
+    text-align: center;
+    vertical-align: middle;
+    padding: 0 10px;
+    line-height: 23px;
+}
+
+.card__img::after {
+    content: 'Рассрочка 12 мес.';
+    position: absolute;
+    height: 22px;
+    left: 105px;
+    top: 12px;
+    color: #FFFFFF;
+    text-transform: capitalize;
+    text-align: center;
+    vertical-align: middle;
+    padding: 0 10px;
+    line-height: 23px;
+    background: #11BE75;
+    border-radius: 4px;
+}
+
+.card__content {
+    padding: 14px 77px 20px 15px;
+}
+
+.card__title {
+    margin: 0;
+    margin-bottom: 10px;
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+
+
+    color: #000000;
+}
+
+
+
+.card__metro {
+    padding-top: 10px;
+}
+
+.card__metro::before {
+    content: '';
+    background-image: url(../img/Metro\ 1.png);
+    display: inline-block;
+    width: 16px;
+    height: 11px;
+    margin-right: 10px;
+    background-repeat: no-repeat;
+    box-sizing: initial;
+}
+
+.card__addres {
+    color: #777777;
+    padding-top: 10px;
+
+}
+
+/* SHOW ALL BLOCK */
+.show__all-block {
+
+    width: 100%;
+    justify-content: space-between;
+     display: none;
+     flex-wrap: wrap;
+     background-color: lavender;
+
+}
+
+.showblock {
+    display: flex;
+}
+
+/* BTN */
+
+.btn__more {
+    width: 874px;
+    height: 80px;
+    background: #E5E5E5;
+    border-radius: 4px;
+    font-size: 18px;
+    line-height: 80px;
+    text-align: center;
+    color: #4290C9;
+    margin-top: 30px;
+    margin-bottom: 449px;
+    line-height: 80px;
+    cursor: pointer;
+}
+
+.btn__more:hover {
+    filter: opacity(0.9);
+    background-color: rgb(190, 197, 197);
+}
+
+.btn__more img {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 7px;
+}
+
+/* SIDEBAR */
+/* vidget1 */
+.sidebar {
+    width: 23%;
+    /*  width: 265px; */
+    min-width: 200px;
+    margin-top: 3px;
+}
+
+@media screen and (max-width: 769px) {
+    .sidebar {
+        position: fixed;
+        width: min-content;
+        background-color: #F4F4F4;
+        bottom: 2%;
+        left: 0;
+        top: 10%;
+        overflow-y: auto;
+        font-size: 14px;
+        -webkit-box-shadow: 2px -1px 45px 0px rgba(0, 0, 0, 0.81);
+        -moz-box-shadow: 2px -1px 45px 0px rgba(0, 0, 0, 0.81);
+        box-shadow: 2px -1px 45px 0px rgba(0, 0, 0, 0.81);
+        border-radius: 10px;
+        transform: translateX(-150%);
+        transition: 0.7s ease-in;
+    }
+
+    .main+.sidebar {
+        margin-left: 0px;
+    }
+}
+
+.widget1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.widget1+.widget1 {
+    margin-top: 30px;
+}
+
+.vidget__title, .special {
+    position: relative;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    margin-bottom: 22px;
+    cursor: pointer;
+}
+
+.vidget__title:after,
+.special:after {
+    content: '';
+    position: absolute;
+    background-image: url(../img/chevron-up.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 24px;
+    height: 24px;
+    top: -2px;
+    right: 0;
+}
+.special:after{
+    transform: rotate(180deg);
+}
+
+.vidget__content{
+    display: flex;
+    flex-direction: column;
+}
+.vidget1__content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.location, .location2 {
+    display: none;
+}
+
+
+.location_btn{
+    font-size: 19px;
+font-weight: 500;
+text-align: center;
+width: 67px;
+height: 50px;
+background-color: transparent;
+cursor: pointer;
+flex-grow: 1;
+text-align: center;
+line-height: 50px;
+}
+
+
+.location:checked + .location_btn {
+    background-color: #FFCF26;
+}
+.location:checked + .location_btn:hover {
+    background-color: #f5d254;
+}
+.location2:checked+.location_btn {
+    background-color: #FFCF26;
+}
+
+.location2:checked+.location_btn:hover {
+    background-color: #f5d254;
+}
+
+
+
+.vidget1__btn {
+    width: 100%;
+    height: 50px;
+    background-color: transparent;
+    border: 1px solid #D6D6D6;
+    box-sizing: border-box;
+    border-radius: 0px 0px 4px 4px;
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+
+/* RADIO */
+.radio {
+    display: block;
+    cursor: pointer;
+}
+
+.radio-title {
+    font-size: 16px;
+    line-height: 19px;
+    margin-left: 7px;
+}
+
+/* расстояние между кнопками */
+.radio+.radio {
+    margin-top: 15px;
+}
+
+.radio-real {
+    display: none;
+}
+
+/* фейковый чекбокс / вид неактивной кнопки */
+.radio-fake {
+    position: relative;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border: 1px solid #777777;
+    box-sizing: border-box;
+    border-radius: 100%;
+    vertical-align: bottom;
+}
+
+/* фейковый чекбокс / вид активной кнопки */
+.radio-real:checked+.radio-fake {
+    background: linear-gradient(0deg, #FFE074, #FFE074),
+        #FFFFFF;
+}
+
+/* фейковый чекбокс / вид активной текста / ~ по соседству */
+.radio-real:checked~.radio-title {
+    font-weight: 500;
+}
+
+/* фейковый чекбокс / вид внутрен кнопки*/
+.radio-real:checked+.radio-fake::before {
+    position: absolute;
+    content: '';
+    width: 8px;
+    height: 8px;
+    background: #3C3C3C;
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+/* CHECKBOX */
+
+.checkbox {
+    display: block;
+    cursor: pointer;
+}
+
+.checkbox-title {
+    font-size: 16px;
+    line-height: 19px;
+    margin-left: 7px;
+}
+
+/* расстояние между кнопками */
+.checkbox+.checkbox {
+    padding-top: 15px;
+}
+
+.checkbox-real {
+    display: none;
+}
+
+/* фейковый чекбокс / вид неактивной кнопки */
+.checkbox-fake {
+    position: relative;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #777777;
+    border-radius: 2px;
+    box-sizing: border-box;
+    vertical-align: bottom;
+}
+
+/* фейковый чекбокс / вид активной кнопки */
+.checkbox-real:checked+.checkbox-fake {
+    background: linear-gradient(0deg, #FFE074, #FFE074),
+        #FFFFFF;
+}
+
+/* фейковый чекбокс / вид активной текста / ~ по соседству */
+.checkbox-real:checked~.checkbox-title {
+    font-weight: 500;
+}
+
+/* фейковый чекбокс / вид внутрен кнопки*/
+.checkbox-real:checked+.checkbox-fake::before {
+    position: absolute;
+    content: '';
+    width: 18px;
+    height: 18px;
+    background-image: url('../img/check.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* end checkbox */
+
+/* SHOW ALL */
+.checkbox__showAll {
+    background: none;
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 19px;
+    color: #4290C9;
+    margin-top: 16px;
+}
+
+.checkbox__showAll:hover {
+    color: #0b3e63;
+}
+
+.show__all {
+    display: none;
+    margin-top: 15px;
+}
+
+.show {
+    display: block;
+}
+
+/* PERCENT */
+
+.percent {
+    display: block;
+    cursor: pointer;
+    margin-top: 29px;
+}
+
+.percent-title {
+    font-size: 16px;
+    line-height: 19px;
+    margin-left: 7px;
+}
+
+.percent-real {
+    display: none;
+}
+
+/* фейковый чекбокс / вид неактивной кнопки */
+.percent-fake {
+    position: relative;
+    display: inline-block;
+    width: 37px;
+    height: 20px;
+    background: #C4C4C4;
+    border-radius: 10px;
+    vertical-align: bottom;
+}
+
+.percent-fake::before {
+    position: absolute;
+    content: '';
+    width: 16px;
+    height: 16px;
+    background: #3C3C3C;
+    border-radius: 50%;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+}
+
+/* фейковый чекбокс / вид активной кнопки */
+.percent-real:checked+.percent-fake {
+    background: linear-gradient(0deg, #FFE074, #FFE074),
+        #FFFFFF;
+}
+
+/* фейковый чекбокс / вид активной текста / ~ по соседству */
+.percent-real:checked~.percent-title {
+    font-weight: 500;
+}
+
+/* фейковый чекбокс / вид внутрен кнопки*/
+.percent-real:checked+.percent-fake::before {
+    position: absolute;
+    content: '';
+    width: 16px;
+    height: 16px;
+    background: #3C3C3C;
+    border-radius: 50%;
+    top: 50%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+
+}
+
+/*
+BUTTONS */
+.agree {
+    width: 270px;
+    height: 50px;
+    background: #FFCF26;
+    border-radius: 4px;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.agree:hover {
+    opacity: 0.8;
+    font-weight: 600;
+}
+
+.reset {
+    width: 100%;
+    height: 50px;
+    display: inline-block;
+    border: 1px solid #D6D6D6;
+    border-radius: 4px;
+    font-size: 16px;
+    line-height: 1;
+    text-align: center;
+    margin-top: 10px;
+    padding-top: 5px;
+}
+
+.reset img {
+    vertical-align: middle;
+}
+
+.reset:hover {
+    background-color: lightgray;
+}
+
+/* MENU MEDIA */
+.menu {
+    position: fixed;
+    top: 1%;
+    left: 77%;
+    z-index: 2;
+    cursor: pointer;
+    background-color: #F4F4F4;
+    padding: 1%;
+    border-radius: 15px;
+}
+
+@media screen and (min-width: 770px) {
+    .menu {
+        display: none;
+    }
+}
+
+.menu-icon-wrapper {
+    /*   background: red; */
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-icon {
+    position: relative;
+    width: 30px;
+    height: 5px;
+    background-color: #FFCF26;
+
+}
+
+.menu-icon::before {
+    position: absolute;
+    left: 0;
+    top: -10px;
+    content: '';
+    width: 30px;
+    height: 5px;
+    background-color: #FFCF26;
+    ;
+    transition: transform 0.2s ease-in, top 0.2s linear 0.2s;
+
+}
+
+.menu-icon::after {
+    position: absolute;
+    left: 0;
+    top: 10px;
+    content: '';
+    width: 30px;
+    height: 5px;
+    background-color: #FFCF26;
+    ;
+    transition: transform 0.7s ease-in, top 0.2s linear 0.2s;
+
+}
+
+.menu-icon.menu-icon-active {
+    background-color: transparent;
+}
+
+.menu-icon.menu-icon-active::before {
+    transform: rotate(45deg);
+    top: 0;
+    transition: top 0.7s linear, transform 0.2s ease-in 0.2s;
+}
+
+.menu-icon.menu-icon-active::after {
+    transform: rotate(-45deg);
+    top: 0;
+    transition: top 0.7s linear, transform 0.2s ease-in 0.2s;
+}
+.endshow{
+    display: none ;
+}

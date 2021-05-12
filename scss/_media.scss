@@ -1,0 +1,176 @@
+@import "mixin";
+
+@media(max-width: 770px) {
+    body {
+        font-size: 0.8em;
+    }
+
+    section {
+        height: auto !important;
+    }
+
+    .title h2 {
+        font-size: $f30 !important;
+    }
+
+    .header__slider {
+        width: 100%;
+        position: static;
+    }
+
+    .header__map {
+        top: -12.5em;
+    }
+
+    .header__slider .slider-item .slider-item__info {
+        position: initial !important;
+        padding-top: 35%;
+        width: 100%;
+        min-height: 10em;
+        @include centr();
+
+        &-title {
+            line-height: $f30;
+            font-size: $f30;
+            padding: 7% 0 5% 0;
+        }
+
+        .short__text2 {
+            font-size: $f18;
+
+        }
+    }
+
+
+
+    .header__slider .slider-item .slider-item__info-text {
+        padding-top: 15%;
+        color: aqua;
+        font-size: $f20;
+        font-weight: 600;
+
+
+    }
+
+    .header__slider .slider-item .slider-item__info-link {
+        display: none;
+    }
+
+    .header__slider .slider-left-arrow {
+        display: none !important;
+    }
+
+    .header__arrows {
+        top: 95%;
+        left: 50%;
+    }
+
+    /* HEADER ASIDE */
+    .header__aside {
+        position: fixed;
+        width: 100%;
+        display: flex;
+        height: 8em;
+        line-height: 0;
+
+        .logo__box {
+            margin-top: 6.5rem;
+
+            .header__aside-logo {
+                position: static;
+                font-size: $f24;
+                margin: 0;
+                padding: 0;
+
+            }
+        }
+
+
+
+        .menu__btn {
+            position: absolute;
+            width: 30px;
+            height: 20px;
+            z-index: 10;
+            left: 80%;
+            top: 47%;
+
+            &-line {
+                content: '';
+                width: 30px;
+                height: 4px;
+                margin-bottom: 2px;
+                background-color: aqua;
+            }
+        }
+
+        .header__aside-data {
+            display: none;
+        }
+
+        .header__aside-search {
+            display: none;
+        }
+
+        .navbar {
+            display: none;
+        }
+    }
+
+    .title__opacity {
+        display: none !important;
+    }
+
+
+
+    /* SLIDER CHILD */
+    .slider_child {
+        display: none;
+    }
+
+    /* SERVICES */
+    .short {
+        display: flex;
+        width: 100% !important;
+        height: max-content;
+
+        .short__text1 {
+            display: table !important;
+            min-height: 3em !important;
+            font-size: $f16 !important;
+            padding-top: 15%;
+            padding-left: 0 !important;
+        }
+    }
+
+
+    /*  WORKS */
+    .works {
+        height: 100vh !important;
+    }
+
+    .works__box {
+        display: block;
+        height: auto;
+
+        .works__items {
+            margin-top: 25%;
+            width: 100%;
+
+            .works__item {
+                width: 80%;
+            }
+        }
+    }
+
+    /* CONTACT */
+    .contact {
+        .contact__box {
+            display: table;
+        }
+
+        .social {
+            padding-top: 2%;
+        }
+    }
+}

@@ -1,0 +1,61 @@
+@import "mixin.scss";
+
+.contact {
+    background: linear-gradient(rgba(3, 11, 22, 0.8), rgba(3,11, 22, 0.9)),
+        url('../img/abstract.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+    @include title();
+    padding-bottom: 5%;
+    height: auto;
+
+
+     .form-name {
+         font-size: $f20;
+         text-transform: capitalize;
+          display: flex;
+          justify-content: space-evenly;
+          text-align: center;
+          padding-top: 5%;
+          color: rgb(201, 209, 218);
+          font-style: italic;
+          font-weight: 700;
+     }
+    .contact__box {
+        @include short();
+        display: flex;
+
+        .short {
+            width: 50%;
+        }
+
+    }
+    .social{
+        display:grid;
+        padding-top: 25%;
+
+        .messenger{
+            display: flex;
+            justify-content: space-evenly;
+            text-align: center;
+        .viber{
+            font-size: $f36;
+            color: blueviolet;
+        }
+        .tellegram {
+            font-size: $f36;
+            color: rgb(58, 148, 250);
+        }
+    }
+    }
+}
+.send{
+    font-size: $f30;
+    color: red;
+}
+
+
+

@@ -1,0 +1,128 @@
+$f12: 0.75rem;
+$f14: 0.875rem;
+$f16: 1rem;
+$f18: 1.125rem;
+$f20: 1.25rem;
+$f24: 1.5rem;
+$f26: 1.6rem;
+$f30: 1.67rem;
+$f36: 2.25rem;
+$f48: 3rem;
+$f60: 3.75rem;
+
+/* CENTR */
+@mixin centr {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  min-height: 10em;
+  align-items: center;
+
+}
+
+/* ARROWS */
+@mixin arrows {
+
+  animation: fadeInDown infinite;
+  animation-duration: 4s;
+}
+
+/* HEADER */
+@mixin line {
+  font-size: $f20;
+  line-height: $f30;
+  letter-spacing: 7.33333px;
+  color: rgb(235, 214, 214);
+  padding-left: 5em;
+  position: relative;
+  display: inline-block;
+
+  &::before {
+    content: "";
+    position: absolute;
+    width: 80px;
+    height: 3px;
+    background: linear-gradient(211deg, rgba(15, 250, 236, 1), rgba(0, 10, 255, 0.24));
+    left: 0;
+    top: 5%;
+
+  }
+}
+
+
+/* SECTIONS */
+section {
+  height: 100vh;
+  border-bottom: 2px solid rgb(42, 46, 46);
+}
+
+.box {
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+@mixin items {
+  justify-content: space-between;
+  align-content: space-between;
+}
+
+@mixin title {
+  .title {
+    position: relative;
+    width: 100%;
+    height: 10em;
+
+    .title__opacity {
+      color: rgba(rgb(134, 123, 123), 0.1);
+      font-weight: 800;
+      font-size: 8em;
+      transform: translateX(-70px);
+      display: inline-block;
+      position: absolute;
+      top: 0;
+    }
+
+    h2 {
+      position: absolute;
+      top: 1em;
+      left: 1em;
+      margin: 0;
+      font-weight: 800;
+      font-size: $f36;
+      z-index: 5;
+
+
+      &::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 80px;
+        height: 1px;
+        background-color: rgb(8, 227, 235);
+      }
+    }
+  }
+}
+
+@mixin short {
+  .short {
+    display: inline-block;
+
+
+    .short__text1 {
+      width: 80%;
+      font-size: $f16;
+      letter-spacing: 7.33333px;
+      opacity: 0.9;
+      @include line();
+      text-align: left;
+
+    }
+
+  }
+}

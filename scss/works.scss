@@ -62,24 +62,26 @@
                   width: 100%;
 
 
-
                   .works__item a {
                         display: flex;
-                        flex-wrap: wrap;
                         flex-direction: column;
                         width: 100%;
                         img {
                               background: white;
                               border: 1px solid rgba(255, 255, 255, 0.3);
-                              width: 90%;
+                              width: 100%;
+                              height: auto;
+                              min-height: 19em;
                         }
 
                         .text {
-                              width: 90%;
+                              width: 100%;
                               padding-top: 3%;
                               color: rgb(71, 122, 124);
                               background-color: rgb(241, 240, 240);
                               text-align: center;
+                              height: auto;
+                              max-height: 3em;
                         }
                   }
 

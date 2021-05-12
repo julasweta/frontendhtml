@@ -1,1 +1,67 @@
-.form-popup{width:100%;display:block}.form-container{width:100%;background-color:white;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;-ms-flex-line-pack:justify;align-content:space-between;right:0;margin-left:auto;margin-right:auto;padding-top:15px;padding-bottom:15px;-webkit-box-shadow:inset 0px 17px 29px 0px rgba(15,46,81,0.15);box-shadow:inset 0px 17px 29px 0px rgba(15,46,81,0.15)}.item{width:17%;height:-webkit-max-content;height:-moz-max-content;height:max-content;margin-left:auto;margin-right:auto}.form-container input[type=text],.form-container input[type=phone],.form-container input[type=name]{border:1px solid #ebebeb;border-radius:85px;background-color:#fff;-webkit-box-shadow:0px 17px 29px 0px rgba(15,46,81,0.15);box-shadow:0px 17px 29px 0px rgba(15,46,81,0.15);width:268px;height:44px}.form-container .btn{background-color:#1eaf13;width:auto;height:auto;border-radius:85px;margin-left:auto;margin-right:auto}.form-container .btn .btn_text{font-family:Roboto,sans-serif;color:white;text-transform:uppercase;text-align:center}.form-container .cancel{background-color:#c71a7f}.form-container .btn:hover,.open-button:hover{opacity:1}
+.form-popup {
+      width: 100%;
+      display: block
+}
+
+.form-container {
+      width: 100%;
+      background-color: white;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+      justify-content: space-between;
+      -ms-flex-line-pack: justify;
+      align-content: space-between;
+      right: 0;
+      margin-left: auto;
+      margin-right: auto;
+      padding-top: 15px;
+      padding-bottom: 15px;
+      -webkit-box-shadow: inset 0px 17px 29px 0px rgba(15, 46, 81, 0.15);
+      box-shadow: inset 0px 17px 29px 0px rgba(15, 46, 81, 0.15)
+}
+
+.item {
+      width: 17%;
+      height: -webkit-max-content;
+      height: -moz-max-content;
+      height: max-content;
+      margin-left: auto;
+      margin-right: auto
+}
+
+.form-container input[type=text],
+.form-container input[type=tel] {
+      width: 268px;
+      height: 44px;border: 1px solid #ebebeb;
+      border-radius: 85px;
+      background-color: #fff;
+      -webkit-box-shadow: 0px 17px 29px 0px rgba(15, 46, 81, 0.15);
+      box-shadow: 0px 17px 29px 0px rgba(15, 46, 81, 0.15);
+   }
+.form-container .btn {
+      background-color: #1eaf13;
+      width: auto;
+      height: auto;
+      border-radius: 85px;
+      margin-left: auto;
+      margin-right: auto
+}
+
+.form-container .btn .btn_text {
+      font-family: Roboto, sans-serif;
+      color: white;
+      text-transform: uppercase;
+      text-align: center
+}
+
+.form-container .cancel {
+      background-color: #c71a7f
+}
+
+.form-container .btn:hover,
+.open-button:hover {
+      opacity: 1
+}

@@ -47,7 +47,7 @@ $(function () {
               slidesToScroll: 2
           }
       }
-      
+
   ]
      });
      $('.shorts').slick({
@@ -58,6 +58,8 @@ $(function () {
          adaptiveHeight: true,
          arrows: false
      });
+
+   
 
 });
 

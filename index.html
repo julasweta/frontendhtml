@@ -10,18 +10,18 @@
             <link href="img/favicon.ico" rel="icon" type="image/x-icon" />
             <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200;300;400;600;800&display=swap"
                   rel="stylesheet">
-            <script src="https://kit.fontawesome.com/876e216c7f.js" crossorigin="anonymous"></script>
+
             <link rel="stylesheet" href="css/style.min.css">
       </head>
 
       <body>
 
 
-            <header class="header">
+            <header class="header ">
                   <h1 class="header__title">Front-End</h1>
                   <div class="header__arrows">
                         <a href="#services">
-                              <img src="img/Down_Arrows.svg" alt="arrows"></a>
+                              <img src="img/DownArrows.svg" alt="arrows"></a>
                   </div>
                   <!-- MAP -->
                   <div class="header__map">
@@ -67,7 +67,7 @@
                               <div class="header__aside-logo">front</div>
                         </div>
 
-                        <!-- MENU MEDIA -->
+                        <!-- MENU MEDIA  ADAPTIVE-->
                         <div class="menu__btn" id="menu__btn">
                               <div class="menu__btn-line"></div>
                               <div class="menu__btn-line"></div>
@@ -79,8 +79,8 @@
                                     <li><a href="#services" class="navbar__item-name">Услуги</a></li>
                                     <li><a href="#works" class="navbar__item-name">Примеры работ</a></li>
                                     <li><a href="#contact" class="navbar__item-name">Контакты</a></li>
-                                    <li> <a href="#sertificate" class="navbar__item-name">Sertificate
-                                          </a></li>
+                                    <li> <a href="#sertificate" class="navbar__item-name">Sertificate</a></li>
+                                    <li> <a href="#sertificate" class="navbar__item-name">Blog</a></li>
                               </ul>
                         </div>
 
@@ -112,6 +112,12 @@
                                           <i class="fas fa-phone-square"></i>
                                     </div>
                                     <a href="#contact" class="navbar__item-name">Контакты</a>
+                              </div>
+                              <div class="navbar__item">
+                                    <div class="navbar__item-img">
+                                          <i class="fas fa-phone-square"></i>
+                                    </div>
+                                    <a href="/blog.html" class="navbar__item-name">HTML Blog</a>
                               </div>
                         </nav>
 
@@ -382,7 +388,7 @@
                               <!--  FORM -->
                               <div class="form" id="form">
                                     <span class="form-name">Заполнить форму</span>
-                                    <form action="https://formspree.io/f/mknkjkga" method="post">
+                                    <form action="send.php" method="post">
                                           <div class="form-group">
 
                                                 <label for="formGroupExampleInput"> Введите имя </label>
@@ -438,9 +444,7 @@
 
                   </section>
             </div>
-            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-            <script src="js/libs.min.js"></script>
-            <script src="js/main.js"></script>
+
 
             <footer>
                   <div class="title">
@@ -450,7 +454,10 @@
             </footer>
 
 
-
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://kit.fontawesome.com/876e216c7f.js" crossorigin="anonymous"></script>
+        <script src="js/libs.min.js"></script>
+        <script src="js/main.js"></script>
 
       </body>
 

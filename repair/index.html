@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Repair</title>
+  <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+  <header>
+    <div class="nav-menu row flex-column fixed-top offset-md-1 ml-auto mr-auto">
+
+      <div class="nav row col-12 justify-content-around flex-md-row flex-sm-column ">
+        <div class="logo col-md-4">
+          <img class="img-fluid" src="img/logo.png" alt="logo">
+        </div>
+        <!-- КНОПКА ВЫЗОВА МОДАЛЬНОГО ОКНА заказать звонок -->
+        <div class="col-md-3 text-center">
+          <p><a class="gallery2" href="#form2">Заказать звонок</a></p>
+        </div>
+        <!--  -->
+        <div class=" phone  col-md-3 text-center">+380977454521</div>
+        <div class="menu__btn col-md-1"><img class="img-fluid offset-md-0 offset-10" src="img/MENU.png" alt="menu">
+        </div>
+      </div>
+
+      <!-- MENU ADAPTIVE -->
+      <div class="menu__box row flex-column col-md-3  offset-md-8 offset-sm-2">
+        <div class="menu row flex-column align-content-center">
+
+          <a href="#">Главная</a>
+          <a href="#turnkey">О нас</a>
+          <a href="#works">Наши проєкты</a>
+          <a href="#table-section">Цены на ремонт</a>
+          <a href="#">Отзывы клиентов</a>
+          <a href="#">Расчет стоимости</a>
+          <a href="#">Контакты</a>
+
+        </div>
+        <div class="social__box row flex-column ">
+          <h4 class="col-12 ">Задать вопрос </h4>
+          <div class="social__images row col-10 flex-row justify-content-between">
+            <a href="#" class="col"><img src="img/social_01.png" alt=""></a>
+            <a href="#" class="col"><img src="img/social_02.png" alt=""></a>
+            <a href="#" class="col"><img src="img/social_03.png" alt=""></a>
+            <a href="#" class="col"><img src="img/social_04.png" alt=""></a>
+          </div>
+        </div>
+      </div>
+      <!--  -->
+
+    </div>
+
+
+
+    <div class="header__content row flex-row">
+      <div class="container col-md-8  col-sm-11">
+        <h1>Капитальный ремонт квартир</h1>
+        <ul>
+          <li>
+            <span class="tick">&#10004</span>
+            <div class="text">Без задержек и превышения сметы </div>
+          </li>
+          <li>
+            <span class="tick">&#10004</span>
+            <div class="text"> Цена известна заранее и фиксируется в договоре</div>
+          </li>
+          <li>
+            <span class="tick">&#10004</span>
+            <div class="text">Гарантии на работы — 5 лет</div>
+          </li>
+          <li>
+            <span class="tick">&#10004</span>
+            <div class="text">Рассрочка до шести месяцев</div>
+          </li>
+        </ul>
+
+        <div class="header__buttons row justify-content-around">
+          <button type="button" class="button-first col-5">Рассчитать в калькуляторе</button>
+          <button type="button" class="button-second col-5">Получить смету сегодня</button>
+        </div>
+
+      </div>
+
+    </div>
+  </header>
+  <div class="header__img row">
+    <img class="img-fluid col-12" src="img/header.png" alt="">
+  </div>
+  <main>
+    <section class="turnkey" id="turnkey">
+      <div class="container">
+        <div class="row flex-column ">
+          <h2 class="offset-md-2 col-md-6">Работаем полностью под ключ</h2>
+
+          <p class="offset-md-2 col-md-8">В стоимость ремонта входит всё: работы, материалы, организация процесса,
+            документация,
+            управление, контроль,
+            гарантия и технический проект.</p>
+
+          <a class="offset-md-2 col-md-6 link" href=" #">Пример технического проекта ↓</a>
+        </div>
+        <div class="turnkey__box row">
+          <div class="turnkey__item flex-column col-md-4 offset-md-2 ">
+            <h2 class="turnkey__item-title">Без вашего участия</h2>
+            <div class="turnkey__item-text">Мы беспокоим хозяев лишь раз и по приятному поводу: сообщаем, что
+              можно въезжать в
+              обновлённую квартиру.</div>
+          </div>
+          <div class="turnkey__item flex-column col-md-4 offset-md-1">
+            <div class="turnkey__item-title">Тройной контроль</div>
+            <div class="turnkey__item-text">Каждая выполненная работа проверяется: прорабом, менеджером и главным
+              инженером.
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+    <section class="report">
+      <div class="container">
+        <div class="report__info row flex-column">
+          <h2 class="report__title col-5 offset-md-2">Постоянная отчетность</h2>
+          <p class="report__text col-8 offset-md-2">Присылаем ежедневные фотоотчеты на e-mail, Viber, Whatsapp,
+            Telegram или любые
+            другие удобные для вас соцсети.</p>
+        </div>
+        <div class="report__items row justify-content-between ">
+          <div class="report__item shadow col-md-4"><img class="img-fluid" src="img/report1.png" alt="report 1"></div>
+          <div class="report__item shadow col-md-4 hidden-md-down"><img class="img-fluid" src="img/report2.png"
+              alt="report 1">
+          </div>
+          <div class="report__item shadow col-md-4 d-block"><img class="img-fluid" src="img/report3.png" alt="report 1">
+          </div>
+        </div>
+      </div>
+
+    </section>
+    <section class="start">
+      <div class="container">
+        <div class="row">
+          <div class="start__info offset-md-2 col-md-8">
+            <h2 class="start__info-title">Начинаем без предоплаты</h2>
+            <p class="start__info-text">Оплата только по факту выполненных работ. За задержки по срокам платим мы — всё
+              зафиксировано в договоре.</p>
+            <a class="link" href="#">Скачать образец договора ↓</a>
+          </div>
+        </div>
+        <div class="start__items row offset-md-2 offset-1">
+          <div class="start__item flex-column col-md-4">
+            <div class="start__item-title">Цена известна заранее
+            </div>
+            <div class="start__item-text">Стоимость работ от 5 500 ₽. Цена фиксируется после согласования
+              проекта и
+              демонтажа и не меняется в процессе работ.</div>
+          </div>
+          <div class="start__item flex-column col-md-4 ">
+            <div class="start__item-title">Гарантия за нас счет
+            </div>
+            <div class="start__item-text">У нас настоящая гарантия 10 лет на сантехнику и электрику и 2 года
+              на
+              отделочные материалы.</div>
+          </div>
+          <div class="start__item flex-column col-md-4">
+            <div class="start__item-title">Бесплатный выезд на замер
+            </div>
+            <div class="start__item-text">Замерщик приедет в удобное для вас время. Чтобы вызвать замерщика позвоните
+              нам или оставьте заявку на нашем сайте.</div>
+          </div>
+          <div class="start__item flex-column col-md-4">
+            <div class="start__item-title">Бесплатная уборка
+            </div>
+            <div class="start__item-text">Уборка мусора и наведение порядка после окончания ремонтных работ нашими
+              партнерами из клининг агентства.</div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="works" id="works">
+      <div class="container">
+        <div class="works__info row offset-md-2 col-md-8">
+          <h2 class="works__info-title">Посмотрите как выглядят наши готовые ремонты </h2>
+          <p class="works__info-text">За 10 лет мы отремонтировали уже больше 200 квартир в Москве и Московской
+            области, вот некоторые из них.</p>
+        </div>
+        <div class="works__items row justify-content-between">
+          <div class="col-md-6">
+
+            <div class="gallery">
+              <a data-fancybox="gallery-1" href="img/work2.png"><img src="img/work2.png" alt="works1"></a>
+              <a data-fancybox="gallery-1" href="img/work1.png"><img src="img/work1.png" alt="works1"></a>
+              <a data-fancybox="gallery-1" href="img/work3.png"><img src="img/work3.png" alt="works1"></a>
+            </div>
+
+
+            <div class="works__item-name row ">
+              <div class="addres col">ЖК «Рассказово»</div>
+              <div class="place col">67 м²</div>
+            </div>
+            <div class="works__item-text">Двухкомнатная квартира в французском стиле: серые стены, тёмный
+              паркет,классические двери, высокий белый плинтус.</div>
+            <div class="works__item-numbers">
+              <div class="img__box">
+                <img src="img/term_icon.png" alt="icon">
+                <div class="term">3 месяца</div>
+              </div>
+              <div class="img__box">
+                <img src="img/price_first_icon.png" alt="icon">
+                <div class="price">1 250 000 ₽</div>
+              </div>
+              <div class="img__box">
+                <img src="img/price_second_icon.png" alt="icon">
+                <div class="price-all">2 400 000 ₽</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="gallery">
+              <a data-fancybox="gallery-2" href="img/work1.png"><img src="img/work1.png" alt="works1"></a>
+              <a data-fancybox="gallery-2" href="img/work2.png"><img src="img/work2.png" alt="works1"></a>
+              <a data-fancybox="gallery-2" href="img/work3.png"><img src="img/work3.png" alt="works1"></a>
+            </div>
+            <div class="works__item-name row ">
+              <div class="addres col">ЖК «Рассказово»</div>
+              <div class="place col">67 м²</div>
+            </div>
+            <div class="works__item-text">Двухкомнатная квартира в французском стиле: серые стены, тёмный
+              паркет,классические двери, высокий белый плинтус.</div>
+            <div class="works__item-numbers ">
+              <div class="img__box">
+                <img src="img/term_icon.png" alt="icon">
+                <div class="term">3 месяца</div>
+              </div>
+              <div class="img__box">
+                <img src="img/price_first_icon.png" alt="icon">
+                <div class="price">1 250 000 ₽</div>
+              </div>
+              <div class="img__box">
+                <img src="img/price_second_icon.png" alt="icon">
+                <div class="price-all">2 400 000 лл</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="gallery">
+              <a data-fancybox="gallery-3" href="img/work1.png"><img src="img/work1.png" alt="works1"></a>
+              <a data-fancybox="gallery-3" href="img/work2.png"><img src="img/work2.png" alt="works1"></a>
+              <a data-fancybox="gallery-3" href="img/work3.png"><img src="img/work3.png" alt="works1"></a>
+            </div>
+
+
+            <div class="works__item-name row ">
+              <div class="addres col">ЖК «Рассказово»</div>
+              <div class="place col">67 м²</div>
+            </div>
+            <div class="works__item-text">Двухкомнатная квартира в французском стиле: серые стены, тёмный
+              паркет,классические двери, высокий белый плинтус.</div>
+            <div class="works__item-numbers ">
+              <div class="img__box">
+                <img src="img/term_icon.png" alt="icon">
+                <div class="term">3 месяца</div>
+              </div>
+              <div class="img__box">
+                <img src="img/price_first_icon.png" alt="icon">
+                <div class="price">1 250 000 ₽</div>
+              </div>
+              <div class="img__box">
+                <img src="img/price_second_icon.png" alt="icon">
+                <div class="price-all">2 400 000 грн</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="gallery">
+              <a data-fancybox="gallery-4" href="img/work4.png"><img class="slide-img" src="img/work4.png"
+                  alt="works1"></a>
+              <a data-fancybox="gallery-4" href="img/work2.png"><img class="slide-img" src="img/work2.png"
+                  alt="works1"></a>
+              <a data-fancybox="gallery-4" href="img/work3.png"><img class="slide-img" src="img/work3.png"
+                  alt="works1"></a>
+            </div>
+            <div class="works__item-name row ">
+              <div class="addres col">ЖК «Рассказово»</div>
+              <div class="place col">67 м²</div>
+            </div>
+            <div class="works__item-text">Двухкомнатная квартира в французском стиле: серые стены, тёмный
+              паркет,классические двери, высокий белый плинтус.</div>
+            <div class="works__item-numbers ">
+              <div class="img__box">
+                <img src="img/term_icon.png" alt="icon">
+                <div class="term">3 месяца</div>
+              </div>
+              <div class="img__box">
+                <img src="img/price_first_icon.png" alt="icon">
+                <div class="price">1 250 000 tdh</div>
+              </div>
+              <div class="img__box">
+                <img src="img/price_second_icon.png" alt="icon">
+                <div class="price-all">2 400 000 ₽</div>
+              </div>
+            </div>
+          </div>
+
+          <!--   INNER APPARTMENT -->
+          <div class="col-md-6 disable__ap">
+            <div class="gallery">
+              <a data-fancybox="gallery-5" href="img/work4.png"><img class="slide-img" src="img/work4.png"
+                  alt="works1"></a>
+              <a data-fancybox="gallery-5" href="img/work2.png"><img class="slide-img" src="img/work2.png"
+                  alt="works1"></a>
+              <a data-fancybox="gallery-5" href="img/work3.png"><img class="slide-img" src="img/work3.png"
+                  alt="works1"></a>
+            </div>
+            <div class="works__item-name row ">
+              <div class="addres col">ЖК «Рассказово»</div>
+              <div class="place col">67 м²</div>
+            </div>
+            <div class="works__item-text">Двухкомнатная квартира в французском стиле: серые стены, тёмный
+              паркет,классические двери, высокий белый плинтус.</div>
+            <div class="works__item-numbers ">
+              <div class="img__box">
+                <img src="img/term_icon.png" alt="icon">
+                <div class="term">3 месяца</div>
+              </div>
+              <div class="img__box">
+                <img src="img/price_first_icon.png" alt="icon">
+                <div class="price">1 250 000 tdh</div>
+              </div>
+              <div class="img__box">
+                <img src="img/price_second_icon.png" alt="icon">
+                <div class="price-all">2 400 000 ₽</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 disable__ap">
+            <div class="gallery">
+              <a data-fancybox="gallery-6" href="img/work4.png"><img class="slide-img" src="img/work4.png"
+                  alt="works1"></a>
+              <a data-fancybox="gallery-6" href="img/work2.png"><img class="slide-img" src="img/work2.png"
+                  alt="works1"></a>
+              <a data-fancybox="gallery-6" href="img/work3.png"><img class="slide-img" src="img/work3.png"
+                  alt="works1"></a>
+            </div>
+            <div class="works__item-name row ">
+              <div class="addres col">ЖК «Рассказово»</div>
+              <div class="place col">67 м²</div>
+            </div>
+            <div class="works__item-text">Двухкомнатная квартира в французском стиле: серые стены, тёмный
+              паркет,классические двери, высокий белый плинтус.</div>
+            <div class="works__item-numbers ">
+              <div class="img__box">
+                <img src="img/term_icon.png" alt="icon">
+                <div class="term">3 месяца</div>
+              </div>
+              <div class="img__box">
+                <img src="img/price_first_icon.png" alt="icon">
+                <div class="price">1 250 000 tdh</div>
+              </div>
+              <div class="img__box">
+                <img src="img/price_second_icon.png" alt="icon">
+                <div class="price-all">2 400 000 ₽</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 disable__ap">
+            <div class="gallery">
+              <a data-fancybox="gallery-7" href="img/work4.png"><img class="slide-img" src="img/work4.png"
+                  alt="works1"></a>
+              <a data-fancybox="gallery-7" href="img/work2.png"><img class="slide-img" src="img/work2.png"
+                  alt="works1"></a>
+              <a data-fancybox="gallery-7" href="img/work3.png"><img class="slide-img" src="img/work3.png"
+                  alt="works1"></a>
+            </div>
+            <div class="works__item-name row ">
+              <div class="addres col">ЖК «Рассказово»</div>
+              <div class="place col">67 м²</div>
+            </div>
+            <div class="works__item-text">Двухкомнатная квартира в французском стиле: серые стены, тёмный
+              паркет,классические двери, высокий белый плинтус.</div>
+            <div class="works__item-numbers ">
+              <div class="img__box">
+                <img src="img/term_icon.png" alt="icon">
+                <div class="term">3 месяца</div>
+              </div>
+              <div class="img__box">
+                <img src="img/price_first_icon.png" alt="icon">
+                <div class="price">1 250 000 tdh</div>
+              </div>
+              <div class="img__box">
+                <img src="img/price_second_icon.png" alt="icon">
+                <div class="price-all">2 400 000 ₽</div>
+              </div>
+            </div>
+          </div>
+          <!--  -->
+        </div>
+
+
+
+        <div class="inner__appartment-link link">
+          <button>Посмотреть другие квартиры</button>
+        </div>
+      </div>
+
+
+      <!-- HTML-код модального окна -->
+
+      <!-- FORMS -->
+      <!-- ЗАКАЗАТЬ ЗВОНОК -->
+      <!--  FORM -->
+      <div class="form1" id="form2" style="display: none;">
+        <span class="form__name">Заполните форму</span>
+        <form action="send.php" method="POST">
+          <div class="form-group">
+            <label class="form__title" for="formGroupExampleInput"> Введите имя </label>
+            <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Enter name" name="name"
+              required>
+
+
+            <label class="form__title" for="exampleInputEmail1"> Введите Email </label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+              placeholder="Enter email" name="email" required>
+            <small id="emailHelp" class="form-text text-muted">МЫ НИКОГДА НИКОМУ НЕ ПЕРЕДАДИМ ВАШУ ЭЛЕКТРОННУЮ
+              ПОЧТУ.</small>
+
+            <label class="form__title" for="exampleInputTel"> Введите номер телефона в международном формате </label>
+            <input type="tel" class="form-control" id="exampleInputTel" aria-describedby="telHelp"
+              placeholder="Enter phone" name="phone" required>
+            <small id="emailHelp" class="form-text text-muted">МЫ НИКОГДА НИКОМУ НЕ ПЕРЕДАДИМ ВАШУ ЭЛЕКТРОННУЮ
+              ПОЧТУ.</small>
+
+
+          </div>
+
+
+
+          <!--  -->
+          <label class="my-1 mr-2 form__title" for="inlineFormCustomSelectPref">Выберите из списка
+            необходимое...</label>
+          <select required name="site" class="custom-select my-1 mr-sm-2" id="inlineFormCustomSelectPref">
+            <option selected value=''>Какой ремонт необходимо сделать</option>
+            <option value="Сайт с нуля">Капитальный ремонт</option>
+            <option value="Редактирование готового сайта">Ремонт в новостройке</option>
+          </select>
+          <!--  -->
+          <!--  -->
+          <label class="my-1 mr-2 form__title" for="inlineFormCustomSelectPref">Размер необходимых работ</label>
+          <select name="page" class="custom-select my-1 mr-sm-2" id="inlineFormCustomSelectPref" required>
+            <option selected value=''>Укажите приблизительные размеры вашей квартиры...</option>
+            <option value="Одностраничный">Однокомнатная</option>
+            <option value="Две-три страницы">Две и более комнаты</option>
+            <option value="Многостраничный">Дом больше 100 кв м</option>
+          </select>
+          <!--  -->
+
+          <div class="form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1" required>
+            <label class="form-check-label" for="exampleCheck1">Я согласен на обработку и хранение моих данных в целях
+              данного проэкта</label>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+
+      </div>
+      <!-- END -->
+      <!-- end modal -->
+    </section>
+
+    <!-- TABLE -->
+
+
+
+    <section class="table-section" id="table-section">
+      <button id="myInput animated pulse" class="myInput""> Показывать только отличающиеся </button>
+  <div class=" container">
+        <div class="row">
+          <table id="table-id" class="table">
+
+            <thead>
+              <tr>
+                <th>
+                  Показывать только отличающиеся
+                </th>
+                <th>Комфорт</th>
+                <th>Комфорт + </th>
+                <th>Дизайнерский</th>
+              </tr>
+              <tr>
+                <th colspan="4" class="table-black">Работы под заказ</th>
+              </tr>
+            </thead>
+            <tr>
+              <td class="td_name">Возведение стен</td>
+              <td>+</td>
+              <td>+</td>
+              <td>+</td>
+            </tr>
+            <tr>
+              <td class="td_name">Выравнивание стен штукатуркой</td>
+              <td>+</td>
+              <td>+</td>
+              <td>+</td>
+            </tr>
+            <tr>
+              <td class="td_name">Замена радиаторов</td>
+              <td>-</td>
+              <td>+</td>
+              <td>+</td>
+            </tr>
+            <tr>
+              <td class="td_name">Подготовка стен под обои</td>
+              <td>-</td>
+              <td>+</td>
+              <td>+</td>
+            </tr>
+            <tr>
+              <td class="td_name">Подготовка пола</td>
+              <td>+</td>
+              <td>-</td>
+              <td>+</td>
+            </tr>
+            <tr>
+              <td class="td_name">Подготовка потолка</td>
+              <td>-</td>
+              <td>+</td>
+              <td>+</td>
+            </tr>
+            <tr>
+              <td class="td_name">Электрика</td>
+              <td>+</td>
+              <td>+</td>
+              <td>+</td>
+            </tr>
+          </table>
+        </div>
+        </div>
+
+    </section>
+
+
+  </main>
+  <footer>
+    <section>
+
+      <div class="container">
+        <div class="row">
+          <div class="footer__contacts row col-7 flex-column justify-content-around">
+            <div class="footer__contact-time"> На связи ежедневно с 8-00 до 19-00</div>
+            <div class="footer__contact_phone">+38(097)745-45-21</div>
+            <div class="footer__contact-email">julasweta@ukr.net</div>
+            <div class="footer__contact-social_box">
+              <div class="social_box-insta"></div>
+              <div class="social_box-vk"></div>
+              <div class="social_box-faceboock"></div>
+            </div>
+
+          </div>
+          <button class="footer__button offset-2 col-3">Пригласить сметчика</button>
+        </div>
+         <div class="footer__nav row justify-content-around">
+           <a href="">menu 01</a>
+           <a href="">menu 02</a>
+           <a href="">menu 03</a>
+           <a href="">menu 04</a>
+           <a href="">menu 05</a>
+           <a href="">menu 06</a>
+           <a href="">menu 07</a>
+         </div>
+
+      </div>
+
+  <div class="footer__mini">
+    <div class="container">
+      <div class="footer__mini-box  row justify-content-around">
+    <div class="footer__mini-logo">LOGO</div>
+    <div class="footer__mini-text">Ремонт без задержек и переплат в Москве и МО</div>
+    <div class="footer__mini-info">2013 — 2019 © ЛионГрупп</div>
+  </div>
+  </div>
+</div>
+    </section>
+  </footer>
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="js/jquery.fancybox.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/tablesort/5.0.2/tablesort.min.js"></script> -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tablefilter/2.5.0/tablefilter_min.js"></script>
+  <script src="js/libs.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>

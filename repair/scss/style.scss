@@ -1,0 +1,517 @@
+@import "vars";
+@import "libs";
+@import "fonts";
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.css');
+@import url('https://unpkg.com/swiper/swiper-bundle.min.css');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    display: block;
+    border: none;
+
+}
+
+body {
+    font-family: 'Inter',
+        sans-serif;
+    font-size: 16px;
+    max-width: 100%;
+
+}
+
+li {
+    list-style-type: none;
+}
+
+/* HEADER */
+header{
+    height: auto;
+}
+.nav-menu{
+
+}
+.nav {
+align-items: baseline;
+    background:rgba(190, 170, 170, 0.9);
+    margin: 0 auto;
+    padding: 1%;
+}
+
+.gallery2 {
+    font-size: 20px;
+}
+
+.phone{
+    color: rgb(35, 97, 105);
+    padding-top: 8px;
+}
+
+/* ADAPTIVE MENU */
+.menu__box{
+    display: none;
+    height: 0;
+    background-color: rgb(240, 231, 235);
+    width:60%;
+    box-shadow: 5px 5px 15px 5px #000000;
+    animation: menu_anime 1s;
+}
+.menu__box-active{
+    display: flex;
+    height:max-content;
+}
+
+@keyframes menu_anime{
+    0% {
+        transform: scale(0.1);
+        opacity: 0;
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+.social__box{
+    padding-bottom: 5%;
+}
+
+.social__box img {
+    width: 20px;
+    height: 19px;
+}
+/* .menu__box-active{
+    display: flex;
+} */
+.menu__btn{
+    cursor: pointer;
+    z-index: 5;
+}
+.inner__appartment-link{
+
+}
+.inner__appartment-link:hover{
+
+}
+.menu a{
+  margin-bottom: 25px;
+color: #191919;
+font-size: 24px;
+ border-bottom: 2px solid rgb(203, 209, 196);
+ width: max-content;
+}
+.menu a:hover,
+.menu a:active {
+      color: #29ABE2;
+      text-decoration: none;
+      border-bottom: 2px solid rgb(203, 209, 196);
+}
+
+
+
+/* header-content*/
+.header__content {
+    padding-top: 194px;
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 58px;
+}
+
+img {
+    display: block;
+}
+
+.tick {
+    color: #29ABE2;
+    padding-right: 5px;
+}
+
+.header__content ul li {
+    display: flex;
+    font-size: 24px;
+}
+
+.header__buttons {
+    display: flex;
+    padding-top: 40px;
+}
+
+.button-first {
+    height: 56px;
+    background: #29ABE2;
+    text-align: center;
+    font-weight: bold;
+    color: black;
+    border: none;
+}
+
+.button-second {
+    border: none;
+    height: 56px;
+    background: transparent;
+    border: 2px solid #29ABE2;
+    text-align: center;
+    font-weight: bold;
+    margin-left: 32px;
+    color: black;
+    text-overflow: ellipsis;
+}
+
+.header__img {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    margin-top: 80px;
+}
+
+/* TURNKET */
+.turnkey {
+    padding-top: 96px;
+    padding-bottom: 96px;
+}
+
+h2 {
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 44px;
+}
+
+p {
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.turnkey__box {
+    margin-top: 64px;
+}
+
+.turnkey__item-title {
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.turnkey__item-text {
+    font-size: 18px;
+    line-height: 27px;
+}
+
+/* REPORT */
+.report {
+    background: #F2F3F3;
+}
+
+.report__info {
+    padding-top: 64px;
+}
+
+
+.report__items {
+    padding-top: 45px;
+    padding-bottom: 96px;
+}
+
+/* START */
+.start {
+    padding-top: 96px;
+    padding-bottom: 99px;
+}
+
+.start__item {
+    padding: 0;
+    padding-top: 64px;
+}
+
+.start__item:nth-child(odd) {
+    margin-right: 103px;
+}
+
+
+.start__item-title {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.start__item-text {
+    font-size: 18px;
+    line-height: 27px;
+}
+
+/* WORKS */
+.works {
+    background: #F2F2F3;
+    padding-bottom: 96px;
+    padding-top: 96px;
+
+}
+
+.works__item {
+    margin-top: 80px;
+    position: relative;
+}
+
+.works__item-name,
+.works__item-text,
+.works__item-numbers {
+    width: 98%;
+}
+
+.works__item-name {
+    font-size: 22px;
+    line-height: 27px;
+    padding-top: 16px;
+}
+
+.works__item-text {
+    font-size: 18px;
+    line-height: 27px;
+    color: #999999;
+    padding-top: 10px;
+}
+
+.works__item-numbers {
+    padding-top: 24px;
+    font-size: 18px;
+    line-height: 27px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.link {
+    font-size: 24px;
+    line-height: 29px;
+    color: #29ABE2;
+    padding-top: 40px;
+}
+
+.img__box {
+    display: flex;
+    align-items: center;
+    width: 90%;
+}
+
+.img__box+.img__box {
+    margin-left: 40px;
+}
+
+.img__box img {
+    width: 16px;
+    height: 16px;
+    padding-left: -5px;
+}
+/* INNER APPARTMENT */
+.disable__ap{
+    /*display: none;*/
+    visibility: hidden;
+    height: 0;
+}
+.active__ap {
+    visibility: initial;
+    height: auto;
+}
+
+/* TABLE */
+.table-section{
+    height: 90vh;
+    padding-top: 50px;
+}
+
+.table-black{
+    background-color: slategrey;
+    color: snow;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.myInput{
+    border: none;
+    width: max-content;
+    height: auto;
+    background-color: rgb(68, 181, 233);
+    padding: 1%;
+    -webkit-animation: color-change-2x 2s linear infinite alternate both;
+    animation: color-change-2x 2s linear infinite alternate both;
+
+}
+.myInput-plus{
+    border: none;
+    width: max-content;
+    height: auto;
+    background-color: violet;
+    padding: 1%;
+}
+th{
+    text-align: center;
+}
+tr{
+    text-align: center;
+}
+.td_name{
+    text-align: left;
+}
+/* FOOTER */
+footer{
+    padding-top: 84px;
+    padding-bottom: 64px;
+    background-color: #191919;
+    color: white;
+    background-attachment: fixed;
+
+}
+.footer__contact-time{
+    font-size: 18px;
+}
+.footer__contact_phone{
+    font-size: 36px;
+}
+.footer__contact-email{
+    font-size: 24px;
+    color: #29ABE2;
+}
+.footer__button{
+border: 2px solid #FFFFFF;
+box-sizing: border-box;
+width: 274px;
+height: 56px;
+background-color: transparent;
+color: white;
+}
+.footer__nav{
+    padding-top: 64px;
+    padding-bottom: 105px;
+}
+.footer__mini{
+    border-top: 1px solid gainsboro;
+    padding-top: 34px;
+}
+/* SLIDER */
+
+.gallery {
+    position: relative;
+}
+
+.slider-left-arrow {
+    position: absolute;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 40px;
+    margin: 0;
+    top: 50%;
+    left: 0;
+    margin-top: -20px;
+
+    z-index: 2;
+    transform: rotate(180deg);
+}
+
+.slider-right-arrow {
+    position: absolute;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 40px;
+    margin: 0;
+    top: 50%;
+    right: 5%;
+    margin-top: -20px;
+}
+
+
+
+.fancybox-show-thumbs .fancybox-inner {
+    right: 0;
+    bottom: 95px;
+}
+
+
+.fancybox-thumbs {
+    top: auto;
+    width: auto;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 95px;
+    padding: 10px;
+    box-sizing: border-box;
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.fancybox-show-thumbs .fancybox-inner {
+    right: 0;
+    bottom: 95px;
+}
+
+.fancybox-show-thumbs .fancybox-thumbs {
+    display: block !important;
+}
+
+.fancybox-stage{
+    width: 60%;
+    background-color: ghostwhite;
+    margin: 0 auto;
+}
+.fancybox-thumbs__list{
+    display: flex;
+    justify-content: center;
+}
+///
+
+/* FORM Заказать звонок */
+.form__title{
+    font-size: 20px;
+    color: rgb(124, 104, 196);
+}
+label{
+    margin-top: 30px;
+}
+.form__name{
+    font-size: 24px;
+    color: rgb(180, 16, 43);
+}
+.form-check-label{
+    color: rgb(168, 12, 20);
+}
+
+
+/* ----------------------------------------------
+ * Generated by Animista on 2020-11-24 1:30:43
+ * Licensed under FreeBSD License.
+ * See http://animista.net/license for more info.
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+
+/**
+ * ----------------------------------------
+ * animation color-change-2x
+ * ----------------------------------------
+ */
+@-webkit-keyframes color-change-2x {
+    0% {
+        background: #19dcea;
+    }
+
+    100% {
+        background: #b22cff;
+    }
+}
+
+@keyframes color-change-2x {
+    0% {
+        background: #19dcea;
+    }
+
+    100% {
+        background: #b22cff;
+    }
+}
+
+@import "media";

@@ -12,7 +12,6 @@
      prevEl: '.swiper-button-prev',
    },
  });
-console.log('PRIVET');
 
 //Form
 function openForm() {

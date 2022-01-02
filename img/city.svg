@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns="http://www.w3.org/2000/svg"
+    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+    xmlns:cc="http://creativecommons.org/ns#"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:svg="http://www.w3.org/2000/svg"
+    xmlns:ns1="http://sozi.baierouge.fr"
+    id="svg2870"
+    sodipodi:docname="new_-ersey-skyline.svg"
+    viewBox="0 0 650 250"
+    version="1.1"
+    inkscape:version="0.47 r22583"
+  >
+  <title
+      id="title2982"
+    >new-jersey-skyline</title
+  >
+  <defs
+      id="defs2872"
+    >
+    <linearGradient
+        id="linearGradient5878"
+        y2="921.14"
+        gradientUnits="userSpaceOnUse"
+        x2="-121.25"
+        gradientTransform="matrix(.80479 0 0 .63365 354.84 382.18)"
+        y1="723.48"
+        x1="-112.95"
+        inkscape:collect="always"
+      >
+      <stop
+          id="stop3758"
+          style="stop-color:#3465a4"
+          offset="0"
+      />
+      <stop
+          id="stop3760"
+          style="stop-color:#ad7fa8"
+          offset="1"
+      />
+    </linearGradient
+    >
+    <linearGradient
+        id="linearGradient5880"
+        y2="997.68"
+        gradientUnits="userSpaceOnUse"
+        x2="-365.42"
+        gradientTransform="matrix(.99455 0 0 1.3901 .0032348 -389.24)"
+        y1="1040.5"
+        x1="-365.42"
+        inkscape:collect="always"
+      >
+      <stop
+          id="stop3944"
+          style="stop-color:#729fcf"
+          offset="0"
+      />
+      <stop
+          id="stop3946"
+          style="stop-color:#555753"
+          offset="1"
+      />
+    </linearGradient
+    >
+  </defs
+  >
+  <sodipodi:namedview
+      id="base"
+      bordercolor="#666666"
+      inkscape:pageshadow="2"
+      inkscape:window-y="-4"
+      pagecolor="#ffffff"
+      inkscape:window-height="712"
+      inkscape:window-maximized="1"
+      inkscape:zoom="1"
+      inkscape:window-x="-4"
+      showgrid="false"
+      borderopacity="1.0"
+      inkscape:current-layer="layer1"
+      inkscape:cx="350"
+      inkscape:cy="87.5"
+      inkscape:window-width="1280"
+      inkscape:pageopacity="0.0"
+      inkscape:document-units="px"
+    >
+    <inkscape:grid
+        id="grid2894"
+        enabled="true"
+        visible="true"
+        snapvisiblegridlinesonly="true"
+        type="xygrid"
+        empspacing="5"
+    />
+  </sodipodi:namedview
+  >
+  <g
+      id="layer1"
+      inkscape:label="Layer 1"
+      inkscape:groupmode="layer"
+      transform="translate(0 -802.36)"
+    >
+    <g
+        id="g5846"
+        transform="matrix(1.0028 0 0 .97508 1.1245 -11.14)"
+      >
+      <rect
+          id="rect2982"
+          style="stroke-width:0;fill:url(#linearGradient5878)"
+          height="170.5"
+          width="645.66"
+          y="834.29"
+          x=".59319"
+      />
+      <rect
+          id="rect3764"
+          style="stroke-width:0;fill:url(#linearGradient5880)"
+          transform="matrix(-.99785 0 0 1 -.14110 0)"
+          height="93.004"
+          width="649.22"
+          y="997.68"
+          x="-648.63"
+      />
+      <path
+          id="path2896"
+          style="stroke:#000000;stroke-width:.82697px;fill:#2e3436"
+          d="m-0.71366 1004.6v-24.809l12.405-8.2697v33.079h-12.405z"
+      />
+      <path
+          id="path2898"
+          style="stroke:#000000;stroke-width:.82697px;fill:#2e3436"
+          d="m11.691 971.55h4.1349 8.2697v33.079h-12.405v-33.079z"
+      />
+      <path
+          id="path2900"
+          style="stroke:#000000;stroke-width:.82697px;fill:#2e3436"
+          d="m24.096 1004.6v-4.1349l28.944-4.1348v-4.1349h8.2697v-4.1349h20.674v8.2697h16.539v-41.349h4.1349v-4.1349h4.1349v-4.1349h4.1349 8.2697v57.888h-95.102z"
+      />
+      <path
+          id="path2902"
+          style="stroke:#000000;stroke-width:.82697px;fill:#2e3436"
+          d="m106.79 1004.6v-53.753h4.1349v-4.1349h8.2697v57.888h-12.405z"
+      />
+      <path
+          id="path2904"
+          style="stroke:#000000;stroke-width:.82697px;fill:#2e3436"
+          d="m119.2 1004.6v-78.562h8.2697v78.562h-8.2697z"
+      />
+      <path
+          id="path2906"
+          style="stroke:#000000;stroke-width:.82697px;fill:#2e3436"
+          d="m119.2 926.07v-28.944h8.2697v28.944h-8.2697z"
+      />
+      <path
+          id="path2908"
+          style="stroke:#000000;stroke-width:.82697px;fill:#2e3436"
+          d="m119.2 897.12v-4.1349h8.2697v4.1349h-8.2697z"
+      />
+      <path
+          id="path2910"
+          sodipodi:nodetypes="ccccc"
+          style="stroke:#000000;stroke-width:.82697px;fill:#2e3436"
+          d="m119.69 892.94 3.6456-16.497h4.1349v16.539l-7.7804-0.0428z"
+      />
+      <path
+          id="path2912"
+          sodipodi:nodetypes="ccccccc"
+          style="stroke:#000000;stroke-width:.82697px;fill:#2e3436"
+          d="m128.15 875.69 24.122 0.75689c4.264 10.61 3.473 19.535 4.1349 28.944v99.237h-28.944l0.6868-128.94z"
+      />
+      <path
+          id="path2914"
+          sodipodi:nodetypes="cccccccccc"
+          style="stroke:#000000;stroke-width:.82697px;fill:#2e3436"
+          d="m156.41 996.36h14.597l2.9139-7.0487 3.1636 7.0487h8.2697v-12.405h8.2697v20.674h-37.214v-8.2697z"
+      />
+      <path
+          id="path2916"
+          style="stroke:#000000;stroke-width:.82697px;fill:#2e3436"
+          d="m193.62 1004.6v-20.674l12.405-4.1349v24.809h-12.405z"
+      />
+      <path
+          id="path2918"
+          style="stroke:#000000;stroke-width:.82697px;fill:#2e3436"
+          d="m206.79 1003.1-0.7639-23.274h16.539 8.2697v24.809l-24.045-1.5348z"
+      />
+      <path
+          id="path2920"
+          style="stroke:#000000;stroke-width:.82697px;fill:#2e3436"
+          d="m230.84 1004.6v-24.809h45.483v24.809h-45.483z"
+      />
+      <path
+          id="path2922"
+          sodipodi:nodetypes="ccccccccc"
+          style="stroke:#000000;stroke-width:.82697px;fill:#2e3436"
+          d="m251.51 979.82v-37.214h0.24969l-0.24969-4.1349h4.1349v-4.1349h4.1349v45.483h-8.2697z"
+      />
+      <path
+          id="path2924"
+          style="stroke:#000000;stroke-width:.82697px;fill:#2e3436"
+          d="m259.78 979.82v-49.618h12.405l4.1349 8.2697v4.1349 62.023-24.809h-16.539z"
+      />
+      <path
+          id="path2926"
+          style="stroke:#000000;stroke-width:.82697px;fill:#2e3436"
+          d="m276.32 979.82v24.809h49.618v-4.1349h-4.1349v-12.405h-12.405v-8.2697h-33.079z"
+      />
+      <path
+          id="path2928"
+          style="stroke:#000000;stroke-width:.82697px;fill:#2e3436"
+          d="m309.4 988.09v-28.944h4.1349v-4.1349h4.1349v-4.1349h4.1349v-4.1349l12.405-4.1349v-12.405 12.405h4.1348v8.2697h4.1349v8.2697 24.809 20.674h-33.079v-16.539z"
+      />
+      <path
+          id="path2930"
+          style="stroke:#000000;stroke-width:.82697px;fill:#2e3436"
+          d="m342.48 1004.6v-20.674h41.349v20.674h-41.349z"
+      />
+      <path
+          id="path2932"
+          style="stroke:#000000;stroke-width:.82697px;fill:#2e3436"
+          d="m354.11 983.52 0.7709-36.779h28.944v37.214h-33.079l3.364-0.43451z"
+      />
+      <path
+          id="path2934"
+          style="stroke:#000000;stroke-width:.82697px;fill:#2e3436"
+          d="m383.83 988.09h8.2697 12.405l4.1349 4.1349h20.674v12.405h-45.483v-16.539z"
+      />
+      <path
+          id="path2936"
+          sodipodi:nodetypes="ccccc"
+          style="stroke:#000000;stroke-width:.82697px;fill:#2e3436"
+          d="m391.32 987.98 0.77921-12.299h4.1349v12.405l-4.9141-0.10513z"
+      />
+      <path
+          id="path2938"
+          sodipodi:nodetypes="ccccsccccc"
+          style="stroke:#000000;stroke-width:.82697px;fill:#2e3436"
+          d="m429.31 988.09v-8.2697l4.1349-4.1349v-8.2697s10.104 0.61135 14.239 0.61135c0.81869 0-0.80821 24.198 0.59417 24.198h5.8415v12.405h-24.809v-16.539z"
+      />
+      <path
+          id="path2940"
+          sodipodi:nodetypes="ccccccc"
+          style="stroke:#000000;stroke-width:.82697px;fill:#2e3436"
+          d="m454.12 1004.6v-12.405l16.539-4.1349v8.2697h16.539l0.48565 8.5194-33.565-0.2497z"
+      />
+      <path
+          id="path2942"
+          style="stroke:#000000;stroke-width:.82697px;fill:#2e3436"
+          d="m487.2 1004.6v-33.079h8.2697v-4.1349h20.674v4.1349h4.1349v33.079h-33.079z"
+      />
+      <path
+          id="path2944"
+          sodipodi:nodetypes="ccccccc"
+          style="stroke:#000000;stroke-width:.82697px;fill:#2e3436"
+          d="m520.28 1004.6v-41.349h12.405l9.9764-0.24969 6.5631 0.24969v41.349h-28.944z"
+      />
+      <path
+          id="path2946"
+          sodipodi:nodetypes="ccccccc"
+          style="stroke:#000000;stroke-width:.82697px;fill:#2e3436"
+          d="m549.22 1004.6v-41.349l1.7066 0.7216-0.48565-8.7416 15.318-0.24969v49.618h-16.539z"
+      />
+      <path
+          id="path2948"
+          style="stroke:#000000;stroke-width:.82697px;fill:#2e3436"
+          d="m565.76 1004.6v-16.539h4.1349v-8.2697h12.405v-4.1349h24.809v4.1349h4.1349v24.809h-45.483z"
+      />
+      <path
+          id="path2950"
+          d="m611.25 1004.6v-12.405h12.405v-12.405l4.1349-4.1349h8.2697l4.1349 4.1349v-4.1349h8.2697v28.944h-37.214z"
+          style="stroke:#000000;stroke-width:.82697px;fill:#2e3436"
+          transform="matrix(.95363 0 0 1.0005 28.155 -.54410)"
+      />
+    </g
+    >
+  </g
+  >
+  <metadata
+    >
+    <rdf:RDF
+      >
+      <cc:Work
+        >
+        <dc:format
+          >image/svg+xml</dc:format
+        >
+        <dc:type
+            rdf:resource="http://purl.org/dc/dcmitype/StillImage"
+        />
+        <cc:license
+            rdf:resource="http://creativecommons.org/licenses/publicdomain/"
+        />
+        <dc:publisher
+          >
+          <cc:Agent
+              rdf:about="http://openclipart.org/"
+            >
+            <dc:title
+              >Openclipart</dc:title
+            >
+          </cc:Agent
+          >
+        </dc:publisher
+        >
+        <dc:title
+          >netalloy-new-jersey-skyline</dc:title
+        >
+        <dc:date
+          >2010-04-19T19:09:26</dc:date
+        >
+        <dc:description
+          >real estate clip art from NetAlloy</dc:description
+        >
+        <dc:source
+          >https://openclipart.org/detail/48973/netalloy-new-jersey-skyline-by-netalloy</dc:source
+        >
+        <dc:creator
+          >
+          <cc:Agent
+            >
+            <dc:title
+              >netalloy</dc:title
+            >
+          </cc:Agent
+          >
+        </dc:creator
+        >
+        <dc:subject
+          >
+          <rdf:Bag
+            >
+            <rdf:li
+              >buildings</rdf:li
+            >
+            <rdf:li
+              >city scape</rdf:li
+            >
+            <rdf:li
+              >city skyline</rdf:li
+            >
+            <rdf:li
+              >commercial</rdf:li
+            >
+            <rdf:li
+              >new jersey</rdf:li
+            >
+            <rdf:li
+              >water front</rdf:li
+            >
+          </rdf:Bag
+          >
+        </dc:subject
+        >
+      </cc:Work
+      >
+      <cc:License
+          rdf:about="http://creativecommons.org/licenses/publicdomain/"
+        >
+        <cc:permits
+            rdf:resource="http://creativecommons.org/ns#Reproduction"
+        />
+        <cc:permits
+            rdf:resource="http://creativecommons.org/ns#Distribution"
+        />
+        <cc:permits
+            rdf:resource="http://creativecommons.org/ns#DerivativeWorks"
+        />
+      </cc:License
+      >
+    </rdf:RDF
+    >
+  </metadata
+  >
+</svg
+>

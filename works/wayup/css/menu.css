@@ -1,0 +1,49 @@
+.logo_menu__box{
+      display: flex;
+      justify-content: space-between;
+}
+
+.fa-mug-hot,
+nav {
+      display: none;
+}
+i{
+      font-size: 50px;
+      padding-top: 50px;
+}
+nav {
+      position: fixed;
+      list-style: none;
+      margin: 0;
+      padding: 10px;
+      box-sizing: border-box;
+      width: 200px;
+      right: 65px;
+      top: 115px;
+      border: 1px solid blue;
+      border-radius: 15px;
+}
+
+.active {
+      display: block;
+      animation: nav_show 2s ease;
+}
+
+@keyframes nav_show {
+      from {
+            transform: translate(850px, 0);
+      }
+
+      to {
+            transform: translate(0, 0);
+      }
+}
+
+nav a {
+      color: white;
+}
+ul{
+      text-align: center;
+      list-style: none;
+      padding: 0;
+}

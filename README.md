@@ -14,5 +14,5 @@ https://julasweta.github.io/frontendhtml/
 ### Codewars
 [![image](https://user-images.githubusercontent.com/44567858/161230489-9ee9b24d-67dc-43c5-a4e9-57344eb42749.png)
 
-### Wordpress project
-http://shopmarketmy.ga/
+### My Works
+[Shelter](https://rolling-scopes-school.github.io/julasweta-JSFE2022Q1/shelter/)
